@@ -65,7 +65,7 @@ namespace CSharpAlgo
    
         public static void Addition(double x, double y)
         {
-            Console.WriteLine($"result is{x+y}");
+            Console.WriteLine($"result is {x+y}");
 
         }
 
