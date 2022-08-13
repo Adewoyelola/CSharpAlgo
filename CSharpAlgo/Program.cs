@@ -13,6 +13,8 @@ namespace CSharpAlgo
             Console.WriteLine(newstring(ifelse));
             Console.WriteLine(newstring(wlse));
             //Console.WriteLine("result is {0}", response);
+            double x = 10;
+            double y = 7;
         }
         public static int ComputeSum(int a, int b)
         {
@@ -60,10 +62,19 @@ namespace CSharpAlgo
             //return result + " " + word;
             return response;
         }
+   
+        public static void Addition(double x, double y)
+        {
+            Console.WriteLine($"result is {x+y}");
+
+        }
+
         public static string Adder(int a, int b)
         {
            int sum = a+ b;
             return $"the sum of two numbers is {sum}";
         }
     }
+
+
 }
