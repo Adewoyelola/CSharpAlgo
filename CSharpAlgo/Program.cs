@@ -69,6 +69,11 @@ namespace CSharpAlgo
 
         }
 
+        public static string Adder(int a, int b)
+        {
+           int sum = a+ b;
+            return $"the sum of two numbers is {sum}";
+        }
     }
 
 
